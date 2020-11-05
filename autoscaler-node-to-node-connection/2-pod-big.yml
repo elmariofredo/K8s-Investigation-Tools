@@ -1,0 +1,19 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: 2-pod-big
+  labels:
+    env: test
+spec:
+  containers:
+  - name: httping
+    image: bretfisher/httping
+    imagePullPolicy: IfNotPresent
+    resources:
+      requests:
+        memory: "20Gi"
+        cpu: "10"
+      limits:
+        memory: "20Gi"
+        cpu: "10"
+    args: [ "10.244.0.15" ]
