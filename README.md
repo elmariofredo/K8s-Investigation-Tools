@@ -2,4 +2,4 @@
 
 Tools and docs for investigation Kubernetes issues
 
-1. [Autoscaler Node to Node connection](./autoscaler-node-to-node-connection)
+1. [Autoscaler Node to Node connection](./autoscaler-node-to-node-connection/README.md)
