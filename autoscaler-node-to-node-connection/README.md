@@ -38,7 +38,7 @@ connected to 10.244.0.15:80 (237 bytes), seq=38181 time=  2.69 ms
 ...
 ```
 
-1. Run testing pod to trigger big worker node autoscale and it is exactly the same as previous checking pod ( check resource requirements if it will fit almost exactly to single big worker ).
+5. Run testing pod to trigger big worker node autoscale and it is exactly the same as previous checking pod ( check resource requirements if it will fit almost exactly to single big worker ).
 
 ```bash
 ➜ kubectl apply -f 2-pod-big.yml
